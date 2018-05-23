@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XO-Game</title>
+	<style type="text/css">
+		.innerBox	{
+			border: 1px solid gray;
+			width: 25px;
+			height: 25px;
+			display: inline-block;
+			margin-bottom: 3px;
+			padding: 0px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.outerBox {
+			width: 100px;
+		}
+		#gameResult {
+			color: black;
+		}
+		p {
+			color: gray;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="gameResult"></h1>
+	<p>You: <span style="color: blue">O</span></p>
+	<p>Computer: <span style="color: red">X</span></p>
+	<div class="outerBox">
+		<div class="innerBox" id="11">&nbsp;</div>
+		<div class="innerBox" id="12">&nbsp;</div>
+		<div class="innerBox" id="13">&nbsp;</div>
+		<div class="innerBox" id="21">&nbsp;</div>
+		<div class="innerBox" id="22">&nbsp;</div>
+		<div class="innerBox" id="23">&nbsp;</div>
+		<div class="innerBox" id="31">&nbsp;</div>
+		<div class="innerBox" id="32">&nbsp;</div>
+		<div class="innerBox" id="33">&nbsp;</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
